@@ -4,17 +4,21 @@
  */
 package pruebagit;
 
-/**
- *
- * @author dani5
- */
+import java.util.Scanner;
+
 public class Pruebagit {
 
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        int a,b,suma;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Introduce el primer valor:");
+        a = sc.nextInt();
+        System.out.println("Introduce el segundo valor:");
+        b = sc.nextInt();
+        suma=a+b;
+        System.out.println("El numero es: " + suma);
     }
     
 }
